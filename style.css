@@ -1,7 +1,46 @@
-/* Estilo para el botón de LinkedIn */
-.button-linkedin {
+/* Establecer una fuente y margen base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Fondo suave */
+    color: #333;
+}
+
+/* Estilo para la cabecera (Header) */
+header {
+    background-color: #007bff; /* Color azul de GitHub */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la sección principal (Main) */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilo para los títulos */
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #007bff;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Estilo para el botón de GitHub */
+.button {
     display: inline-block;
-    background-color: #0077b5; 
+    background-color: #28a745; /* Color verde */
     color: white;
     padding: 10px 15px;
     text-decoration: none;
@@ -9,8 +48,36 @@
     margin-top: 15px;
     margin-right: 10px; 
     transition: background-color 0.3s ease;
-} 
+}
+
+.button:hover {
+    background-color: #1e7e34;
+}
+
+/* Estilo para el botón de LinkedIn */
+.button-linkedin {
+    display: inline-block;
+    background-color: #0077b5; /* Azul de LinkedIn */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
 
 .button-linkedin:hover {
     background-color: #005a8a;
+}
+
+/* Estilo para el pie de página (Footer) */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
